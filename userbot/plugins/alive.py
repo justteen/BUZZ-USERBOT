@@ -14,7 +14,7 @@ from . import *
 from PIL import Image
 
 from userbot import ALIVE_NAME, CMD_HELP, StartTime, topfunc
-from userbot.Config import Var
+from userbot.config import Var
 from userbot.thunderconfig import Config
 from userbot.utils import lightning_cmd, edit_or_reply, sudo_cmd
 
