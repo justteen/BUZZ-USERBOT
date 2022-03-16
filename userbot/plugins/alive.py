@@ -16,20 +16,20 @@ from userbot.utils import lightning_cmd, edit_or_reply, sudo_cmd
 
 ALIVE_PIC = os.environ.get("ALIVE_PIC", None)
 if ALIVE_PIC is None:
-    PM_iMG = "https://telegra.ph/file/89542f076c98cc5b20c01.jpg"
+    PM_iMG = "https://telegra.ph/file/5596812541665b58045b7.jpg"
 else:
     PM_iMG = ALIVE_PIC
 
 
 HELL_PIC = os.environ.get("HELL_PIC", None)
 if HELL_PIC is None:
-    HELL_IMG = "https://telegra.ph/file/89542f076c98cc5b20c01.jpg"
+    HELL_IMG = "https://telegra.ph/file/5596812541665b58045b7.jpg"
 else:
     HELL_IMG = HELL_PIC
 
 CAT_IMGE = os.environ.get("CAT_IMGE", None)
 if CAT_IMGE is None:
-    CAT_IMG = "https://telegra.ph/file/89542f076c98cc5b20c01.jpg""
+    CAT_IMG = "https://telegra.ph/file/5596812541665b58045b7.jpg""
 else:
     CAT_IMG = CAT_IMGE
 
@@ -98,9 +98,9 @@ async def amireallyalive(salive):
             "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙲𝙷𝙰𝙽𝙽𝙴𝙻         : [ᴊᴏɪɴ](https://t.me/supbuz)\n"
         )
         pm_caption += (
-            "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿           : [ᴊᴏɪɴ](https://t.me/ossuport)\n"
+            "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿           : [ᴊᴏɪɴ](https://t.me/buzzsupport)\n"
         )
-        pm_caption += "M E N C A R I J O D O H\n"
+        pm_caption += "G A B U T\n"
         pm_caption += "𝘾𝙊𝙋𝙔𝙍𝙄𝙂𝙃𝙏 𝘽𝙔            : [ ⚡ 𝐁 𝐔 𝐙 𝐙 ⚡ ](https://t.me/psycho_syrid)"
         await salive.get_chat()
         await salive.delete()
@@ -110,7 +110,7 @@ async def amireallyalive(salive):
         )
         await sallive.delete()
         return
-    req = requests.get("https://telegra.ph/file/89542f076c98cc5b20c01.jpg")
+    req = requests.get("https://telegra.ph/file/5596812541665b58045b7.jpg")
     req.raise_for_status()
     file = BytesIO(req.content)
     file.seek(0)
@@ -127,8 +127,8 @@ async def amireallyalive(salive):
             "𝚃𝙴𝙻𝙴𝚃𝙷𝙾𝙽 𝚅𝙴𝚁𝚂𝙸𝙾𝙽        : 1.17.5\n"
             "𝙿𝚈𝚃𝙷𝙾𝙽 𝚅𝙴𝚁𝚂𝙸𝙾𝙽          : 3.9.0\n"
             "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙲𝙷𝙰𝙽𝙽𝙴𝙻         : [ᴊᴏɪɴ](https://t.me/supbuz)\n"
-            "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿           : [ᴊᴏɪɴ](https://t.me/ossuport)\n"
-            "M E N C A R I J O D O H."
+            "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿           : [ᴊᴏɪɴ](https://t.me/buzzsupport)\n"
+            "G A B U T."
             "𝘾𝙊𝙋𝙔𝙍𝙄𝙂𝙃𝙏 𝘽𝙔            : [ ⚡ 𝐁 𝐔 𝐙 𝐙 ⚡ ](https://t.me/psycho_syridwan)",
             link_preview=False,
         )
